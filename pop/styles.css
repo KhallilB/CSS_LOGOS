@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 253, 107);
+}
+
+/* FIRST P */
+
+#first__p_upper {
+    position: absolute;
+    transform: translate( -50%, -50%);
+    top: 50%;
+    left: 34%;
+    height: 200px;
+    width: 200px;
+    border-radius: 120px 120px 120px 0px;
+    background: orange;
+}
+
+#first__p_lower {
+    position: absolute;
+    transform: translate( -50%, -50%);
+    top: 68%;
+    left: 29.65%;
+    height: 100px;
+    width: 75px;
+    background: orange;
+    border-radius: 0px 0px 80px 80px;
+}
+
+#first__p_light_group {
+
+}
+
+#light_show {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 20px;
+    background: white;
+    border-radius: 50%/100px 100px 0 0;
+}
+
+#light_transparent {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 20px;
+    background: transparent;
+    border-radius: 50%;
+}
+
+#first__p_light_top {
+    position: absolute;
+    transform: translate( -50%, -50% );
+    transform: rotate(230deg);
+    top: 30%;
+    left: 27.8%;
+    height: 110px;
+    width: 40px;
+    background: #fff;
+    border-radius: 50% ;
+    background: transparent;
+    box-shadow: 7px 4px 0px 0px #fff, inset 5px 5px 0px 0px #fff;
+}
+
+/* MIDDLE O */
+
+#cute__o {
+    position: absolute;
+    transform: translate( -50%, -50%);
+    top: 59.8%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    background: orange;
+    border-radius: 50%;
+}
+
+#cute__o_light {
+    position: absolute;
+    transform: translate( -50%, -50% );
+    transform: rotate(230deg);
+    top: 30%;
+    left: 27.8%;
+    height: 110px;
+    width: 40px;
+    background: #fff;
+    border-radius: 50% ;
+    background: transparent;
+    box-shadow: 7px 4px 0px 0px #fff, inset 5px 5px 0px 0px #fff;
+}
+
+/* LAST P */
+
+#last__p_upper {
+    position: absolute;
+    transform: translate( -50%, -50%);
+    top: 50%;
+    left: 67%;
+    height: 200px;
+    width: 200px;
+    border-radius: 120px 120px 120px 0px;
+    background: orange;
+}
+
+#last__p_lower {
+    position: absolute;
+    transform: translate( -50%, -50%);
+    top: 68%;
+    left: 62.65%;
+    height: 100px;
+    width: 75px;
+    background: orange;
+    border-radius: 0px 0px 80px 80px;
+}
