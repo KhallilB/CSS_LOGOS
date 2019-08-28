@@ -8,13 +8,32 @@ html, body {
 }
 
 @keyframes bouncing_o {
-  0% { top: 59.8%; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
-  100% { top: 57.8%; box-shadow: 0 50px 50px rgba(0,0,0,0.1);}
+    0% { 
+        top: 59.8%; box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+
+    100% { 
+        top: 57.8%; box-shadow: 0 50px 50px rgba(0,0,0,0.1);
+    }
 }
 
 @keyframes bouncing_o_light {
- 0% { top: 48.9%; }
- 100% { top: 46.9% }
+    0% { 
+        top: 48.9%; 
+    }
+    100% { 
+        top: 46.9% 
+    }
+}
+
+@keyframes bouncing_halo { 
+    0% { 
+        top: 30%; 
+    }
+
+    100% {
+        top: 26%;
+    }
 }
 
 /* FIRST P */
@@ -55,6 +74,7 @@ html, body {
     border-radius: 50% ;
     background: transparent;
     box-shadow: 7px 4px 11px 0px #fff, inset 5px 5px 11px 0px #fff;
+    animation: bouncing_halo 0.9s cubic-bezier(0.1,0.45,0.1,1) 0s infinite alternate both;
 }
 
 #first__p_light {
