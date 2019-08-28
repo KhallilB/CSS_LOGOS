@@ -42,19 +42,19 @@ html, body {
     background: #fff;
     border-radius: 50% ;
     background: transparent;
-    box-shadow: 7px 4px 25px 0px #fff, inset 5px 5px 25px 0px #fff;
+    box-shadow: 7px 4px 11px 0px #fff, inset 5px 5px 11px 0px #fff;
 }
 
 #first__p_light {
-  position: absolute;
+    position: absolute;
     transform: translate( -50%, -50%);
-    transform: rotate(180deg);
-    top: 41%;
-    left: 28.8%;
-    height: 135px;
-    width: 155px;
-    border-radius: 120px 120px 120px 120px;
-    box-shadow: 4px 11px 1px 0px #fff;
+    transform: rotate(-40deg);
+    top: 40%;
+    left: 27.9%;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 7px 11px 0px 0px rgba(255, 255, 255, 0.747);
     background: transparent;
 }
 
@@ -73,16 +73,15 @@ html, body {
 
 #cute__o_light {
     position: absolute;
-    transform: translate( -50%, -50% );
-    transform: rotate(230deg);
-    top: 30%;
-    left: 27.8%;
-    height: 110px;
-    width: 40px;
-    background: #fff;
-    border-radius: 50% ;
+    transform: translate( -50%, -50%);
+    transform: rotate(-45deg);
+    top: 48.9%;
+    left: 44%;
+    height: 160px;
+    width: 160px;
     background: transparent;
-    box-shadow: 7px 4px 0px 0px #fff, inset 5px 5px 0px 0px #fff;
+    border-radius: 50%;
+    box-shadow: 4px 11px 0px 0px rgba(255, 255, 255, 0.747);
 }
 
 /* LAST P */
