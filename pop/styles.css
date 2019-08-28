@@ -46,7 +46,16 @@ html, body {
 }
 
 #first__p_light {
-
+  position: absolute;
+    transform: translate( -50%, -50%);
+    transform: rotate(180deg);
+    top: 41%;
+    left: 28.8%;
+    height: 135px;
+    width: 155px;
+    border-radius: 120px 120px 120px 120px;
+    box-shadow: 4px 11px 1px 0px #fff;
+    background: transparent;
 }
 
 /* MIDDLE O */
