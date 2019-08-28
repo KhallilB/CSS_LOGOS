@@ -107,3 +107,16 @@ html, body {
     background: orange;
     border-radius: 0px 0px 80px 80px;
 }
+
+#last__p_light {
+    position: absolute;
+    transform: translate( -50%, -50%);
+    transform: rotate(-40deg);
+    top: 40%;
+    left: 60.9%;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 7px 11px 0px 0px rgba(255, 255, 255, 0.747);
+    background: transparent;
+}
