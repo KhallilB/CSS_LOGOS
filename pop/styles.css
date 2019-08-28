@@ -31,29 +31,7 @@ html, body {
     border-radius: 0px 0px 80px 80px;
 }
 
-#first__p_light_group {
-
-}
-
-#light_show {
-    position: relative;
-    height: 50px;
-    width: 50px;
-    top: 20px;
-    background: white;
-    border-radius: 50%/100px 100px 0 0;
-}
-
-#light_transparent {
-    position: relative;
-    height: 50px;
-    width: 50px;
-    left: 20px;
-    background: transparent;
-    border-radius: 50%;
-}
-
-#first__p_light_top {
+#first__p_halo {
     position: absolute;
     transform: translate( -50%, -50% );
     transform: rotate(230deg);
@@ -64,7 +42,11 @@ html, body {
     background: #fff;
     border-radius: 50% ;
     background: transparent;
-    box-shadow: 7px 4px 0px 0px #fff, inset 5px 5px 0px 0px #fff;
+    box-shadow: 7px 4px 25px 0px #fff, inset 5px 5px 25px 0px #fff;
+}
+
+#first__p_light {
+
 }
 
 /* MIDDLE O */
