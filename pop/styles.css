@@ -12,9 +12,9 @@ body {
     position: relative;
     margin: auto;
     display: block;
-    width: 1200px;
+    width: 1000px;
     height: 720px;
-    margin-top: 5%;
+    margin-top: 12vh;
     background: blue;
 }
 
@@ -23,21 +23,20 @@ body {
 
 #first__p_upper {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 10%;
-    height: 30%;
-    width: 18%;
+    height: 32%;
+    width: 22%;
     border-radius: 120px 120px 120px 0px;
     background: orange;
 }
 
 #first__p_lower {
     position: absolute;
-    transform: translate( -50%, -50%);
-    top: 58%;
-    left: 13.5%;
+    top: 55%;
+    left: 10%;
     height: 20%;
-    width: 7%;
+    width: 8%;
     background: orange;
     border-radius: 0px 0px 80px 80px;
 }
