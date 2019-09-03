@@ -113,6 +113,21 @@ body {
     animation: bouncing__o_shadow 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
 }
 
+#cute__o_smile {
+    position: absolute;
+    transform: translate( -50%, -50%);
+    transform: rotate(5deg);
+    top: 35%;
+    left: 41%;
+    height: 26%;
+    width: 18%;
+    background: none;
+    border-radius: 50%;
+    box-shadow: 4px 11px 0px 0px rgba(255, 255, 255, 0.747);
+    z-index: 1;
+    animation: bouncing__o_smile 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
 @keyframes bouncing__o {
     0% {
         top: 50%;
@@ -130,6 +145,17 @@ body {
     100% {
         background: rgba(0, 0, 0, 0);
         transform: scale(.5)
+    }
+}
+
+@keyframes bouncing__o_smile {
+    0% {
+        top: 35%;
+        box-shadow: 4px 11px 0px 0px rgba(255, 255, 255, 0.747);
+    }
+    100% {
+        top: 30%;
+        box-shadow: 4px 20px 0px 0px rgba(255, 255, 255, 0.747);
     }
 }
 
