@@ -113,6 +113,30 @@ body {
     animation: bouncing__o_shadow 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
 }
 
+#cute__o_left_eye {
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    height: 3%;
+    width: 1%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.685);
+    z-index: 2;
+    animation: bouncing__o_eyes 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
+#cute__o_right_eye {
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    height: 3%;
+    width: 1%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.685);
+    z-index: 1;
+    animation: bouncing__o_eyes 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
 #cute__o_smile {
     position: absolute;
     transform: translate( -50%, -50%);
@@ -145,6 +169,15 @@ body {
     100% {
         background: rgba(0, 0, 0, 0);
         transform: scale(.5)
+    }
+}
+
+@keyframes bouncing__o_eyes {
+    0% {
+        top: 45%;
+    }
+    100% {
+        top: 40%;
     }
 }
 
