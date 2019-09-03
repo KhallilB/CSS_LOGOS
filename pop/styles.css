@@ -121,8 +121,20 @@ body {
     width: 1%;
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.685);
-    z-index: 2;
+    z-index: 1;
     animation: bouncing__o_eyes 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
+#cute__o_eye_cover_left {
+    position: absolute;
+    top: 47%;
+    left: 46%;
+    height: 4%;
+    width: 1%;
+    border-radius: 50%;
+    background: orange;
+    z-index: 2;
+    animation: bouncing__o_eye_cover 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
 }
 
 #cute__o_right_eye {
@@ -135,6 +147,18 @@ body {
     background: rgba(0, 0, 0, 0.685);
     z-index: 1;
     animation: bouncing__o_eyes 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
+#cute__o_eye_cover_right {
+    position: absolute;
+    top: 47%;
+    left: 53%;
+    height: 4%;
+    width: 1%;
+    border-radius: 50%;
+    background: orange;
+    z-index: 2;
+    animation: bouncing__o_eye_cover 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
 }
 
 #cute__o_smile {
@@ -178,6 +202,17 @@ body {
     }
     100% {
         top: 40%;
+    }
+}
+
+@keyframes bouncing__o_eye_cover {
+    0% {
+        top: 47%;
+        transform: scale(0);
+    }
+    100% {
+        top: 42%;
+        transform: scale(1.5);
     }
 }
 
