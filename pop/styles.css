@@ -28,6 +28,7 @@ body {
     width: 22%;
     border-radius: 120px 120px 120px 0px;
     background: orange;
+    z-index: 1;
     animation: bouncing__first__p_upper 0.8s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
 }
 
@@ -39,7 +40,20 @@ body {
     width: 9%;
     background: orange;
     border-radius: 0px 0px 80px 80px;
+    z-index: 1;
     animation: bouncing__first__p_lower 0.8s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
+#first__p_shadow {
+    position: absolute;
+    top: 62%;
+    left: 15%;
+    height: 5%;
+    width: 9%;
+    background: black;
+    border-radius: 50%;
+    z-index: 0;
+    animation: bouncing__first__p_shadow 0.8s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
 }
 
 @keyframes bouncing__first__p_upper {
@@ -57,6 +71,17 @@ body {
     }
     100% {
         top: 39%;
+    }
+}
+
+@keyframes bouncing__first__p_shadow {
+    0% {
+        background: rgba(0, 0, 0, .6);
+        transform: scale(1.2)
+    }
+    100% {
+        background: rgba(0, 0, 0, 0);
+        transform: scale(.5)
     }
 }
 
