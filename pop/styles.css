@@ -119,6 +119,7 @@ body {
     width: 22%;
     border-radius: 120px 120px 120px 0px;
     background: orange;
+    animation: bouncing__last__p_upper 0.3s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
 }
 
 #last__p_lower {
@@ -129,4 +130,23 @@ body {
     width: 9%;
     background: orange;
     border-radius: 0px 0px 80px 80px;
+    animation: bouncing__last__p_lower 0.3s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
+@keyframes bouncing__last__p_upper {
+    0% {
+        top: 19%;
+    }
+    100% {
+        top: 12%;
+    }
+}
+
+@keyframes bouncing__last__p_lower {
+    0% {
+        top: 46%;
+    }
+    100% {
+        top: 39%;
+    }
 }
