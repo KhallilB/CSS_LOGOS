@@ -52,6 +52,16 @@ body {
     width: 22%;
     background: orange;
     border-radius: 50%;
+    animation: bouncing__o 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
+@keyframes bouncing__o {
+    0% {
+        top: 50%;
+    }
+    100% {
+        top: 45%;
+    }
 }
 
 
