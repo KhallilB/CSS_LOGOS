@@ -8,24 +8,23 @@ body {
     background: rgb(138, 255, 102);
 }
 
-.container {
+#container {
     position: relative;
     margin: auto;
     display: block;
-    margin-top: 8%;
-    width: 600px;
-    height: 420px;
-    background: none;
-    border: solid black 8px;
+    width: 1200px;
+    height: 720px;
+    margin-top: 5%;
+    background: blue;
 }
 
 #first__p_upper {
     position: absolute;
     top: 50%;
-    left: 34%;
+    left: 0%;
     height: 200px;
     width: 200px;
     border-radius: 120px 120px 120px 0px;
     background: orange;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
