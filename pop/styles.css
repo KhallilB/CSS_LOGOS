@@ -52,7 +52,20 @@ body {
     width: 22%;
     background: orange;
     border-radius: 50%;
+    z-index: 1;
     animation: bouncing__o 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
+#cute__o_shadow {
+    position: absolute;
+    top: 59%;
+    left: 39.5%;
+    height: 9%;
+    width: 20%;
+    background: black;
+    border-radius: 50%;
+    z-index: 0;
+    animation: bouncing__o_shadow 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
 }
 
 @keyframes bouncing__o {
@@ -61,6 +74,17 @@ body {
     }
     100% {
         top: 45%;
+    }
+}
+
+@keyframes bouncing__o_shadow {
+    0% {
+        background: rgba(0, 0, 0, .6);
+        transform: scale(1.2)
+    }
+    100% {
+        background: rgba(0, 0, 0, 0);
+        transform: scale(.5)
     }
 }
 
