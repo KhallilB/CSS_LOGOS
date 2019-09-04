@@ -1,0 +1,21 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: rgb(71, 158, 199);
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 1200px;
+    height: 820px;
+    margin-top: 8vh;
+}
+
+
+/* LETTER F */
