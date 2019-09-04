@@ -19,3 +19,28 @@ body {
 
 
 /* LETTER F */
+
+#letter__f_backbone {
+    position: absolute;
+    height: 40%;
+    width: 5%;
+    background: grey;
+    border-radius: 40px;
+}
+
+#letter__f_top_bar {
+    position: absolute;
+    height: 15%;
+    width: 25%;
+    background: grey;
+    border-radius: 40px;
+}
+
+#letter__f_bottom_bar {
+    position: absolute;
+    top: 17%;
+    height: 9%;
+    width: 19%;
+    background: grey;
+    border-radius: 40px;
+}
