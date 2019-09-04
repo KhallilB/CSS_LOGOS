@@ -44,3 +44,35 @@ body {
     background: grey;
     border-radius: 40px;
 }
+
+
+/* LETTER A */
+#letter__a_body {
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    height: 28%;
+    width: 19%;
+    background: grey;
+    border-radius: 50%;
+}
+
+#letter__a_inner_body {
+    position: absolute;
+    top: 16%;
+    left: 29%;
+    height: 14%;
+    width: 9.5%;
+    background: rgb(71, 158, 199);
+    border-radius: 50%;
+}
+
+#letter__a_backbone {
+    position: absolute;
+    top: 22%;
+    left: 39%;
+    height: 18%;
+    width: 5%;
+    background: grey;
+    border-radius: 40px;
+}
