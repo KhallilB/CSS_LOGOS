@@ -76,3 +76,29 @@ body {
     background: grey;
     border-radius: 40px;
 }
+
+
+/* FIRST LETTER L */
+
+#first_letter__l {
+    position: absolute;
+    top: 0%;
+    left: 48%;
+    height: 40%;
+    width: 5%;
+    background: grey;
+    border-radius: 40px;
+}
+
+
+/* SECOND LETTER L */
+
+#second_letter__l {
+    position: absolute;
+    top: 0%;
+    left: 58%;
+    height: 40%;
+    width: 5%;
+    background: grey;
+    border-radius: 40px;
+}
